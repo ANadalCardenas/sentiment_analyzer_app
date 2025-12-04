@@ -19,7 +19,7 @@ A Google Cloud App Engine configuration (app.yaml)
 
 The project is designed to be both a learning exercise and a flexible template for deploying NLP models in production environments.
 
-📂 Project Structure
+Project Structure
 sentiment_analyzer_app/
 │
 ├── train.py               # Training loop, evaluation, saving model artifacts
