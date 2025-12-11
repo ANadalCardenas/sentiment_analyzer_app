@@ -21,16 +21,16 @@ The project is designed to be both a learning exercise and a flexible template f
 
 ## Project Structure 
 sentiment_analyzer_app/
-├── train.py # Training loop, evaluation, saving model artifacts
-├── model.py # PyTorch model definition 
-├── utils.py # Dataset loader, vocabulary, batching utilities 
-├── main.py # Flask web application for inference
-├── requirements.txt # Project dependencies
-├── app.yaml # Google Cloud App Engine configuration
+├── train.py 
+├── model.py 
+├── utils.py
+├── main.py
+├── requirements.txt
+├── app.yaml
 ├── templates/
-├── hello.html # Landing page
-    └── result.html # Result page 
-    └── state_dict.pt # Saved model checkpoint (after training)
+├── hello.html
+    └── result.html
+    └── state_dict.pt
 
 ## Dataset
 
